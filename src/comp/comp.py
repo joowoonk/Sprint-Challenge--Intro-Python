@@ -82,6 +82,10 @@ print(e)
 # inclusive.
 print("Names and ages between 27 and 32:")
 f = []
+
+for c, value in enumerate(humans):
+    if value.age > 27 and value.age < 32:
+        f.append((value.name, value.age))
 print(f)
 
 # Write a list comprehension that creates a list of new Humans like the old
@@ -89,10 +93,16 @@ print(f)
 # The "humans" list should be unmodified.
 print("All names uppercase:")
 g = []
+
+for i in humans:
+    g.append(f"{i.name.upper()},{i.age + 5}")
 print(g)
 
 # Write a list comprehension that contains the square root of all the ages.
 print("Square root of ages:")
 import math
 h = []
+
+for i in humans:
+    h.append(f"{i.name}, {math.sqrt(i.age)}")
 print(h)
