@@ -70,12 +70,23 @@ for c in cities:
 
 # TODO Get latitude and longitude values from the user
 
-def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
-  # within will hold the cities that fall within the specified region
-  within = []
+# def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
+#   # within will hold the cities that fall within the specified region
 
-  # TODO Ensure that the lat and lon valuse are all floats
-  # Go through each city and check to see if it falls within 
-  # the specified coordinates.
+# # User needs input of two inputs of lat and lon of each 
+# # By the two inputs, we will filter the areas that are in between lat1 and lon1, and lan2 and lon2 
 
-  return within
+#   within = []
+  
+#   for city in cities:
+    
+#     # within.append
+    
+
+#   # TODO Ensure that the lat and lon valuse are all floats
+#   # Go through each city and check to see if it falls within 
+#   # the specified coordinates.
+
+#   return within
+
+# cityreader_stretch(-45, 32, 120, -23, whateverthecities)
